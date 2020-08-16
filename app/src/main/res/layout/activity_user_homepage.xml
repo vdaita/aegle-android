@@ -29,22 +29,46 @@
         app:layout_constraintTop_toBottomOf="@+id/user_homepage_photo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/health_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="36dp"
-        android:text="Button"
+        android:background="@drawable/button_background"
+        android:text="Health Check"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_homepage_name" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/health_report"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="60dp"
-        android:text="Button"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/button_background"
+        android:text="Health Report"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_homepage_name" />
+
+    <Button
+        android:id="@+id/call_hotline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_background"
+        android:text="Call Hotline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/health_check" />
+
+    <Button
+        android:id="@+id/wearables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/button_background"
+        android:text="Wearables"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/health_report" />
 </androidx.constraintlayout.widget.ConstraintLayout>
